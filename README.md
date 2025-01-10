@@ -1,8 +1,20 @@
-# React + Vite
+# Cocinando tu Receta 🍳
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación interactiva para crear recetas personalizadas. Los usuarios pueden seleccionar ingredientes, ajustar sus cantidades y obtener un puntaje nutricional en tiempo real.
 
-Currently, two official plugins are available:
+## Funcionalidades ✨
+- Selección de ingredientes clasificados por categorías (proteínas, vegetales, carbohidratos, etc.).
+- Panel interactivo para arrastrar y soltar ingredientes.
+- Ajuste de cantidades para cada ingrediente.
+- Cálculo dinámico del puntaje nutricional.
+- Guardado de recetas en localStorage y visualización en un historial.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas 🛠️
+- **React**: Para construir la interfaz de usuario.
+- **CSS**: Para el diseño visual.
+- **JavaScript**: Para la lógica y manipulación del DOM.
+- **Vercel**: Para el despliegue de la aplicación.
+
+## Contribuciones 🤝
+¡Las contribuciones son bienvenidas! Si tienes ideas o mejoras, no dudes en abrir un issue o hacer un pull request.
+
