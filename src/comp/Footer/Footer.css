@@ -1,3 +1,10 @@
-footer{
-    background-color: #C5B186 ;
+.footer-ra{
+    display: flex;
+    justify-content: space-around;
+    background-color: #C5B186;
+    margin: 0px;
+    padding: 10px;
+    p{
+        margin: 0px;
+    }
 }

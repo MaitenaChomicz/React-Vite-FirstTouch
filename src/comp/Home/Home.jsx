@@ -9,7 +9,7 @@ const Home = () => {
     <div className='blockintro' id='introhome'>
         <img src={logo} alt="Logo" />
         <h1 id='section-home'>Recipe App</h1>
-        <p className='textint'>Bienvenido a nuestra aplicación de recetas personalizadas, donde la creatividad y la nutrición se encuentran. Con nuestra herramienta interactiva, puedes seleccionar tus ingredientes favoritos de una lista, arrastrarlos a tu panel de trabajo y ajustar las cantidades según tus preferencias. A medida que construyes tu receta, obtendrás un puntaje nutricional en tiempo real, ayudándote a crear comidas deliciosas y equilibradas. ¡Comienza a experimentar con tus ingredientes y descubre nuevas formas de disfrutar de una cocina saludable y personalizada!</p>
+        <p className='textint'>Welcome to our custom recipes app, where creativity and nutrition meet. With our interactive tool, you can select your favorite ingredients from a list, drag them to your work panel and adjust the quantities according to your preferences. As you build your recipe, you'll get real-time nutritional scoring, helping you create delicious, balanced meals. Start experimenting with your ingredients and discover new ways to enjoy healthy and personalized cooking!</p>
         <button className='btn-intro'><a href="#section-create">Create Recipe</a></button>
     </div>
     </section>

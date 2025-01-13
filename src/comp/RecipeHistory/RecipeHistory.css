@@ -11,3 +11,46 @@
     display: flex;
     justify-content: center;
 }
+
+.container-MR{
+    padding: 20px 0px;
+    background-color: #FCC858;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.space-MR{
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    h3{
+        display: flex;
+        justify-content: center;
+    }
+
+    p{
+        margin: 0px;
+    }
+}
+
+.boton-mas-menos{
+    border-style: none;
+    margin: 5px;
+    background-color: rgb(218, 211, 211);
+    border-radius: 5px;
+}
+
+.boton-borrar{
+    border-style: none;
+    margin: 5px;
+    background-color: rgb(221, 76, 76);
+    border-radius: 5px;
+}
+
+

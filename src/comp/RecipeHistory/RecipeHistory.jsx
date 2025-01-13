@@ -21,18 +21,14 @@ const RecipeHistory = () => {
     setSelectedRecipe(recipe);
   };
 
-  const handleBackToList = () => {
-    setSelectedRecipe(null);
-  };
 
   return (
-    <section id='RecipeHistory' className='container'>
-      <div>
-        <h2 className='SlideLine text-center fw-bolder'></h2>
+    <section className='container-MR'>
+        <h2>My Recipes</h2>
+      <div className='space-MR'>
     
         {selectedRecipe ? (
           <div>
-            <button onClick={handleBackToList}>Back</button>
             <h3>{selectedRecipe.name}</h3>
             <p>{selectedRecipe.description}</p>
             

@@ -26,7 +26,7 @@ const RecipeCard = ({ recipe, onDelete }) => {
 
       
 
-      <button onClick={handleToggleRM}>
+      <button onClick={handleToggleRM} className='boton-mas-menos'>
         {showMore ? 'Read Less' : 'Read More'}
       </button>
 
@@ -43,7 +43,7 @@ const RecipeCard = ({ recipe, onDelete }) => {
         </div>
       )}
 
-      <button onClick={onDelete}>Delete</button>
+      <button onClick={onDelete} className='boton-borrar'>Delete</button>
       
     </div>
   );
