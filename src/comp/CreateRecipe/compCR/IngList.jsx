@@ -18,9 +18,9 @@ const IngList = ({ ingredients, onSelectIngredient }) => {
   return (
     <div className='ingredient-list'>
       <h3>Select the Ingredients</h3>
-      <label htmlFor="ingredient-select"></label>
+      <label htmlFor="ing-selection"></label>
       <select
-        id="ingredient-select"
+        id="ing-selection"
         value={selectedIngredientId}
         onChange={handleSelectChange}
       >

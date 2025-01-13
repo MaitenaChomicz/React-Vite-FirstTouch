@@ -14,9 +14,9 @@ const RSummary = ({ ingredients }) => {
 
 
 return (
-  <div className='recipe-summary'>
+  <div>
     <h3>Nutritions Facts</h3>
-    <div className='nutrition-box'>
+    <div>
       <p>Calories: {totalNutrition.calories.toFixed(2)} kcal</p>
       <p>Proteins: {totalNutrition.protein.toFixed(2)} G</p>
       <p>Carbs: {totalNutrition.carbs.toFixed(2)} G</p>

@@ -19,6 +19,9 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    h2{
+        padding-bottom: 20px
+    }
 }
 
 .space-MR{
@@ -41,16 +44,18 @@
 
 .boton-mas-menos{
     border-style: none;
-    margin: 5px;
-    background-color: rgb(218, 211, 211);
+    margin: 10px;
+    padding: 5px 10px;  
     border-radius: 5px;
+    background-color: #5892FC;
 }
 
 .boton-borrar{
     border-style: none;
-    margin: 5px;
-    background-color: rgb(221, 76, 76);
+    margin: 10px;
+    padding: 5px 10px;  
     border-radius: 5px;
+    background-color: rgb(221, 76, 76);
 }
 
 

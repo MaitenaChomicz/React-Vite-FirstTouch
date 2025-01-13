@@ -6,6 +6,9 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    h3{
+        padding: 10px 0px 5px 0px;
+    }
 }
 
 .space-CR{
@@ -28,30 +31,40 @@
     align-items: flex-end;
     background-color: white;
     padding: 5px 10px 4px 20px;
+    
+}
 
+ul.ingredients-box{
+    padding: 0px;
 }
 
 .ingredient-list{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0px;
+    
     select{
         width: 200px;
     }
 }
 
+#ing-selection{
+    width: 177px;
+    height: 21px;
+}
+
 .boton-delete{
     border-style: none;
-    margin: 5px;
-    background-color: rgb(221, 76, 76);
+    margin: 0px 10px 10px 10px;
+    padding: 5px 10px;  
     border-radius: 5px;
+    background-color: rgb(221, 76, 76);
 }
 
 .boton-save{
     border-style: none;
-    padding: 0px 10px;
-    margin: 10px;
+    padding: 5px 10px;
+    margin: 10px 10px 0px 10px;
     background-color: rgb(70, 177, 79);
     border-radius: 5px;
 }

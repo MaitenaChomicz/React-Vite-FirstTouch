@@ -93,7 +93,7 @@ const CreateRecipe = () => {
         />
         <RSummary ingredients={selectedIngredients} description={description} />
 
-        <h2>Time</h2>
+        <h3>Time</h3>
         <label htmlFor="time"></label>
         <input type="number"
           placeholder="Time for elaboration"
@@ -101,7 +101,7 @@ const CreateRecipe = () => {
           onChange={handleTimeChange}
         />
 
-        <h2>Description</h2>
+        <h3>Description</h3>
         <label htmlFor="description"></label>
         <input type="text"
           id="description"
