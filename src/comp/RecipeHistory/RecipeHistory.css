@@ -6,3 +6,8 @@
         padding: 20px 0px;
     }
 }
+
+.empty-list{
+    display: flex;
+    justify-content: center;
+}

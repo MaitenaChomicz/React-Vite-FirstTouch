@@ -1,6 +1,58 @@
-.crea{
+
+.container-CR{
     padding: 20px 0px;
     background-color: #FCC858;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+.space-CR{
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    h3{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.ingredients-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: white;
+    padding: 5px 10px 4px 20px;
+
+}
+
+.ingredient-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    select{
+        width: 200px;
+    }
+}
+
+.boton-delete{
+    border-style: none;
+    margin: 5px;
+    background-color: rgb(221, 76, 76);
+    border-radius: 5px;
+}
+
+.boton-save{
+    border-style: none;
+    padding: 0px 10px;
+    margin: 10px;
+    background-color: rgb(70, 177, 79);
+    border-radius: 5px;
+}
+

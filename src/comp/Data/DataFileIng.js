@@ -1,12 +1,12 @@
-export const ExtendedIngInfo = [
+export const IngInfo = [
     { id: 1, name: 'Tofu', category: 'Proteins', calories: 76, protein: 8, carbs: 1.9 },
     { id: 2, name: 'Chicken Breast', category: 'Proteins', calories: 165, protein: 31, carbs: 0 },
     { id: 3, name: 'Turkey', category: 'Proteins', calories: 135, protein: 29, carbs: 0 },
     { id: 4, name: 'Lamb', category: 'Proteins', calories: 294, protein: 25, carbs: 0 },
-    { id: 5, name: 'Oats', category: 'Carbohydrates', calories: 389, protein: 16.9, carbs: 66.3 },
-    { id: 6, name: 'Pasta', category: 'Carbohydrates', calories: 157, protein: 5.8, carbs: 31.9 },
-    { id: 7, name: 'Barley', category: 'Carbohydrates', calories: 354, protein: 12.5, carbs: 73.5 },
-    { id: 8, name: 'Sweet Corn', category: 'Carbohydrates', calories: 96, protein: 3.4, carbs: 21.3 },
+    { id: 5, name: 'Oats', category: 'Carbs', calories: 389, protein: 16.9, carbs: 66.3 },
+    { id: 6, name: 'Pasta', category: 'Carbs', calories: 157, protein: 5.8, carbs: 31.9 },
+    { id: 7, name: 'Barley', category: 'Carbs', calories: 354, protein: 12.5, carbs: 73.5 },
+    { id: 8, name: 'Sweet Corn', category: 'Carbs', calories: 96, protein: 3.4, carbs: 21.3 },
     { id: 9, name: 'Spinach', category: 'Vegetables', calories: 23, protein: 2.9, carbs: 3.6 },
     { id: 10, name: 'Kale', category: 'Vegetables', calories: 49, protein: 4.3, carbs: 9.0 },
     { id: 11, name: 'Cucumber', category: 'Vegetables', calories: 16, protein: 0.7, carbs: 3.6 },

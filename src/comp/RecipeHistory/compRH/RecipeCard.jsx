@@ -1,15 +1,52 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './RecipeCard.css'
 
-const RecipeCard = () => {
+const RecipeCard = ({ recipe, onDelete }) => {
+  const [showMore, setShowMore] = useState(false);
+
+  const handleToggleRM = () => {
+    setShowMore(!showMore);
+  };
+
   return (
-    <>
-    <section>
-    <div>RecipeCard</div>
-    </section>
-    </>
-    
-  )
+    <div>
+      <h3>{recipe.title}</h3>
+
+      <strong>Time</strong>{' '} {recipe.time}
+      
+      <p>
+        <strong>Ingredients:</strong>{' '}
+        {recipe.ingredients.map((ingredient, index) => (
+          <span key={index}>
+            {ingredient.name} ({ingredient.quantity} G)
+            {index < recipe.ingredients.length - 1 ? ', ' : ''}
+          </span>
+        ))}
+      </p>
+
+      
+
+      <button onClick={handleToggleRM}>
+        {showMore ? 'Read Less' : 'Read More'}
+      </button>
+
+      {showMore && (
+        <div>
+          <strong>Nutritions Facts:</strong>{' '}
+          <p>Calories: {recipe.nutrition.calories.toFixed(2)} kcal</p>
+          <p>Proteins: {recipe.nutrition.protein.toFixed(2)} G</p>
+          <p>Carbs: {recipe.nutrition.carbs.toFixed(2)} G</p>
+
+          <strong>Description</strong>{' '}
+          <p>{recipe.description}</p>
+
+        </div>
+      )}
+
+      <button onClick={onDelete}>Delete</button>
+      
+    </div>
+  );
 }
 
-export default RecipeCard
+export default RecipeCard;
