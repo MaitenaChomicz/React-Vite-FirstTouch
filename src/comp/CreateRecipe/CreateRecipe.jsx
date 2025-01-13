@@ -73,7 +73,7 @@ const CreateRecipe = () => {
   
     return (
       <section className='container-CR'>
-        <h2>Create Recipe</h2>
+        <h2 id='section-create'>Create Recipe</h2>
       <div className='space-CR'>
          
 

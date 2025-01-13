@@ -10,9 +10,9 @@ const Menu = () => {
       <nav>
         <ul>
           <li><img src={logo} alt="Logo" class='logomenu'/></li>
-          <li><a href="#section-home">Home</a></li>
+          <li><a href="#logo-home">Home</a></li>
           <li><a href="#section-create">Create Recipes</a></li>
-          <li><a href="#section-recipes">My Recipes</a></li>
+          <li><a href="#section-mr">My Recipes</a></li>
 
         </ul>
       </nav>

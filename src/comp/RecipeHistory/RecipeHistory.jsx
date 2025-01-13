@@ -24,7 +24,7 @@ const RecipeHistory = () => {
 
   return (
     <section className='container-MR'>
-        <h2>My Recipes</h2>
+        <h2 id='section-mr'>My Recipes</h2>
       <div className='space-MR'>
     
         {selectedRecipe ? (
